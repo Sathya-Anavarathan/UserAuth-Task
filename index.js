@@ -1,14 +1,16 @@
 import express from 'express';
-
-import dotenv from 'dotenv';
 import authRouter from './src/routes/authRoutes.js';
 import infoRouter from './src/routes/infoRoutes.js';
 import errorHandler from './src/middlewares/errorHandler.js';
 import connectDB from './src/config/db.js';
 
 
+import dotenv from 'dotenv';
+
+
 
 dotenv.config();
+
 const app = express();
 const PORT = process.env.PORT ;
 
