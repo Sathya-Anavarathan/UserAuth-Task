@@ -1,7 +1,7 @@
 import express from 'express';
-import authRouter from './routes/authRoutes.js';
-import infoRouter from './routes/infoRoutes.js';
-import errorHandler from './middlewares/errorHandler.js';
+import authRouter from './src/routes/authRoutes.js';
+import infoRouter from './src/routes/infoRoutes.js';
+import errorHandler from './src/middlewares/errorHandler.js';
 import connectDB from './src/config/db.js';
 
 
