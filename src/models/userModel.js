@@ -1,6 +1,5 @@
 import mongoose from 'mongoose'
 
-import userModel from './UserModel.js';
 const userschema=new mongoose.Schema({
     name:{
         type:String,
